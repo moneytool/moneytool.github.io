@@ -105,7 +105,7 @@ blockquote footer{border:0;padding:8px 0 0;font-size:.8125rem;color:var(--muted)
 .foot-note{font-size:.8125rem;color:var(--muted);margin-top:14px}
 
 /* photo */
-.photo{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap}
+.photo{display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;margin-bottom:24px}
 .photo img{width:240px;height:240px;max-width:100%;border-radius:var(--radius);border:1px solid var(--line);object-fit:cover;display:block}
 .photo .dl{display:inline-block;font-size:.875rem;padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);margin-top:4px}
 .photo .dl:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
@@ -236,14 +236,31 @@ body > footer .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:spa
 </section>
 
 <section id="photo">
-  <div class="label"><b>Photo</b>Headshot</div>
+  <div class="label"><b>Photos</b>Three options</div>
   <div>
-    <h2>Headshot</h2>
+    <h2>Photos</h2>
+    <p class="prose" style="color:var(--muted);margin:0 0 16px">JPEG. Free to use with coverage of this work.</p>
+    <div class="photo">
+      <img src="assets/press-formal-1000x1000.jpg" alt="Photo of Vamshidher Reddy Jannapu Reddy in a suit and tie" width="240" height="240" loading="lazy">
+      <div>
+        <p class="prose" style="color:var(--muted);margin:0 0 10px">Formal. Square 1000 × 1000 and wide 1200 × 600.</p>
+        <a class="dl" href="assets/press-formal-1000x1000.jpg" download="vamshidher-reddy-jannapu-reddy-formal.jpg">Download square</a>
+        <a class="dl" href="assets/press-formal-1200x600.jpg" download="vamshidher-reddy-jannapu-reddy-formal-wide.jpg">Download wide</a>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="assets/press-open-collar-1000x1000.jpg" alt="Photo of Vamshidher Reddy Jannapu Reddy in a blazer and open-collar shirt" width="240" height="240" loading="lazy">
+      <div>
+        <p class="prose" style="color:var(--muted);margin:0 0 10px">Open collar. Square 1000 × 1000 and wide 1200 × 600.</p>
+        <a class="dl" href="assets/press-open-collar-1000x1000.jpg" download="vamshidher-reddy-jannapu-reddy-open-collar.jpg">Download square</a>
+        <a class="dl" href="assets/press-open-collar-1200x600.jpg" download="vamshidher-reddy-jannapu-reddy-open-collar-wide.jpg">Download wide</a>
+      </div>
+    </div>
     <div class="photo">
       <img src="assets/press-headshot.jpg" alt="Headshot of Vamshidher Reddy Jannapu Reddy" width="240" height="240" loading="lazy">
       <div>
-        <p class="prose" style="color:var(--muted);margin:0 0 10px">JPEG, 1000 × 1000 pixels. Free to use with coverage of this work.</p>
-        <a class="dl" href="assets/press-headshot.jpg" download="vamshidher-reddy-jannapu-reddy-headshot.jpg">Download headshot</a>
+        <p class="prose" style="color:var(--muted);margin:0 0 10px">Earlier headshot. Square 1000 × 1000.</p>
+        <a class="dl" href="assets/press-headshot.jpg" download="vamshidher-reddy-jannapu-reddy-headshot.jpg">Download square</a>
       </div>
     </div>
   </div>
